@@ -170,3 +170,34 @@
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
 }
+@media only screen and (max-width:600px) {
+    .logo_container{
+        width: 100%;
+    }
+    .frst_section{
+        padding: 10px;
+    }
+    .img_container{
+        width: 200px;
+        height: 200px;
+    }
+    .name_container{
+        width: 100%;
+    }
+    .name_container .your_name{
+        font-size: 40px;
+    }
+    .designation h1{
+        font-size: 25px;
+    }
+    .designation h2{
+        font-size: 22px;
+    }
+    .img_parent_container{
+        justify-content: center;
+        margin-top: -425px;
+    }
+    .frst_section{
+        clip-path: polygon(0 0, 100% 0%, 100% 48%, 0 75%);
+    }
+}
