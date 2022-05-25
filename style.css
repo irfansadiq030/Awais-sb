@@ -173,6 +173,7 @@
 @media only screen and (max-width:600px) {
     .logo_container{
         width: 100%;
+        height: 70px;
     }
     .frst_section{
         padding: 10px;
@@ -199,5 +200,18 @@
     }
     .frst_section{
         clip-path: polygon(0 0, 100% 0%, 100% 48%, 0 75%);
+    }
+    .about_container{
+        margin-top: -200px;
+        padding: 50px 0;
+    }
+    .projects_section{
+        padding: 20px 10px;
+    }
+    .projects_heading{
+        font-size: 25px;
+    }
+    .project_title h1{
+        font-size: 20px;
     }
 }
