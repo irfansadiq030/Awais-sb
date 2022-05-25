@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,500;8..144,600;8..144,700;8..144,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.main_section{
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+   
+    /* 2nd Box-shadow style */
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    /* padding: 50px 90px; */
+    background: #dcdcdc;
+}
+
+.frst_section {
+    z-index: 1;
+    /* border: 2px solid red; */
+    padding: 50px 90px;
+    width:100%;
+    height: 800px;
+    background: rgb(89, 40, 161);
+    background: linear-gradient(180deg, rgba(89, 40, 161, 1) 19%, rgba(64, 150, 133, 1) 92%);
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 59%, 0 88%);
+    clip-path: polygon(0 0, 100% 0%, 100% 59%, 0 88%);
+}
+
+.logo_container {
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 150px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.logo_txt {
+    color: #fff;
+    font-weight: 600;
+    font-style: 60px;
+}
+
+.logo_txt span {
+    font-weight: 300;
+}
+
+.name_container {
+    /* border: 2px solid red; */
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name_container .your_name {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.designation h1 {
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.designation h2 {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 200;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.designation a {
+    text-decoration: none;
+    font-weight: 200;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+.img_parent_container {
+    position: absolute;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    margin-top: -450px !important;
+    z-index: 2;
+}
+
+.img_container {
+    width: 350px;
+    height: 350px;
+    border: 1px solid grey;
+    /* padding: 5px; */
+    border-radius: 100%;
+    /* background-image: url("fani.jpg");
+    background-size: cover; */
+    position: relative;
+    overflow: hidden;
+}
+.fani_img{
+    width: 100%;
+    position: relative;
+}
+.about_container{
+    width: 90%;
+    padding: 50px 20px;
+    /* border: 2px solid red; */
+    margin-bottom: 50px;
+}
+.about_txt{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about_desc{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+.projects_section{
+    padding: 50px;
+    width: 80%;
+    /* height: 600px; */
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    margin: 100px auto;
+    border-radius: 20px;
+    background: #dcdcdc;
+}
+.projects_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.project_img_container{
+    width: 100%;
+    /* height: 70%; */
+    /* border: 2px solid red; */
+    overflow: hidden;
+    border-radius: 10px;
+}
+.project_img_container img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.project_title{
+    width: 100%;
+    padding:10px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    background: maroon;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.project_title h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
